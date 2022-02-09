@@ -9,8 +9,8 @@ const Login = (props) => {
           <SignUp>GET ALL THERE</SignUp>
           <Description>
             Get Premier Access to Raya and the Last Dragon for an additional fee
-            with a Disney+ subscription. As of 03/06/2022, the price of Disney+
-            and The Disney Bundle will increase by $1.
+            with a Disney+ subscription. From 03/06/2022, the price of Disney+
+            and The Disney Bundle will increase by Rs 199/-.
           </Description>
           <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
         </CTA>
@@ -89,7 +89,8 @@ const SignUp = styled.a`
 
 const Description = styled.p`
   color: hsla(0, 0%, 95.3%, 1);
-  font-size: 11px;
+  font-size: 20px;
+  font-family: "Solway";
   margin: 0 0 24px;
   line-height: 1.5;
   letter-spacing: 1.5px;
